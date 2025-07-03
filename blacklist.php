@@ -19,7 +19,7 @@ class BlackList
     {
         if (!file_exists($this->file))
         {
-            file_put_contents($this->file, 'blacklist.txt');
+            file_put_contents($this->file, '');
         }
     }
 
